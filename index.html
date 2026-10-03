@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Sakshi</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{
+
+  margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+
+  font-family:Arial,sans-serif;color:#fff;text-align:center;
+
+  background:linear-gradient(135deg,#3b176b,#a04491,#f4a6bd);
+
+  padding:20px
+
+}
+
+.card{
+
+  width:100%;max-width:390px;padding:28px 22px;border-radius:25px;
+
+  background:rgba(255,255,255,.17);border:1px solid rgba(255,255,255,.35);
+
+  box-shadow:0 15px 40px #220b3c66
+
+}
+
+img{width:100%;max-height:330px;object-fit:cover;border-radius:18px}
+
+h1{font-size:30px;margin:20px 0 8px}
+
+p{font-size:18px}
+
+button{
+
+  border:0;border-radius:30px;padding:14px 35px;font-size:18px;
+
+  font-weight:bold;color:#7b276b;background:#fff;margin-top:15px
+
+}
+
+#surprise{display:none}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+  <img src="sakshi_jio_birthday_g....jpg" alt="Sakshi">
+
+  <h1>Happy Birthday Sakshi! 🎂</h1>
+
+  <p>This is for you ❤️</p>
+
+  <button onclick="showSurprise()">Continue 💜</button>
+
+  <div id="surprise">
+
+    <h2>🎉 A Special Wish For You 🎉</h2>
+
+    <p>तुझा प्रत्येक दिवस आनंदाने, प्रेमाने आणि सुंदर आठवणींनी भरलेला असो! ❤️</p>
+
+    <p>Once again, Happy Birthday Sakshi! 💐</p>
+
+  </div>
+
+</div>
+
+<script>
+
+function showSurprise(){
+
+  document.getElementById('surprise').style.display='block';
+
+}
+
+</script>
+
+</body>
+
+</html>
